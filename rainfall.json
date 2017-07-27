@@ -1,0 +1,924 @@
+{
+"items":[
+  {
+    "YEAR": 1901,
+    "JUNE": 22.7,
+    "JULY": 185.2,
+    "AUGUST": 264.1,
+    "SEPTEMBER": 70.6,
+    "ANNUAL_RAIN": 542.7
+  },
+  {
+    "YEAR": 1902,
+    "JUNE": 59.9,
+    "JULY": 225.2,
+    "AUGUST": 143.8,
+    "SEPTEMBER": 126.1,
+    "ANNUAL_RAIN": 555.1
+  },
+  {
+    "YEAR": 1903,
+    "JUNE": 26.2,
+    "JULY": 211.7,
+    "AUGUST": 275.2,
+    "SEPTEMBER": 167.9,
+    "ANNUAL_RAIN": 680.9
+  },
+  {
+    "YEAR": 1904,
+    "JUNE": 53.4,
+    "JULY": 253.7,
+    "AUGUST": 234,
+    "SEPTEMBER": 70.6,
+    "ANNUAL_RAIN": 611.7
+  },
+  {
+    "YEAR": 1905,
+    "JUNE": 23.1,
+    "JULY": 162.9,
+    "AUGUST": 128.3,
+    "SEPTEMBER": 135.3,
+    "ANNUAL_RAIN": 449.6
+  },
+  {
+    "YEAR": 1906,
+    "JUNE": 91.8,
+    "JULY": 200.5,
+    "AUGUST": 249.1,
+    "SEPTEMBER": 191.2,
+    "ANNUAL_RAIN": 732.7
+  },
+  {
+    "YEAR": 1907,
+    "JUNE": 41.4,
+    "JULY": 121.3,
+    "AUGUST": 274.5,
+    "SEPTEMBER": 13.5,
+    "ANNUAL_RAIN": 450.7
+  },
+  {
+    "YEAR": 1908,
+    "JUNE": 41.1,
+    "JULY": 306.5,
+    "AUGUST": 366.9,
+    "SEPTEMBER": 72.8,
+    "ANNUAL_RAIN": 787.3
+  },
+  {
+    "YEAR": 1909,
+    "JUNE": 125,
+    "JULY": 324,
+    "AUGUST": 234.3,
+    "SEPTEMBER": 148.4,
+    "ANNUAL_RAIN": 831.8
+  },
+  {
+    "YEAR": 1910,
+    "JUNE": 116.9,
+    "JULY": 187,
+    "AUGUST": 298.3,
+    "SEPTEMBER": 123,
+    "ANNUAL_RAIN": 725.2
+  },
+  {
+    "YEAR": 1911,
+    "JUNE": 78,
+    "JULY": 59,
+    "AUGUST": 150.4,
+    "SEPTEMBER": 192.8,
+    "ANNUAL_RAIN": 480.2
+  },
+  {
+    "YEAR": 1912,
+    "JUNE": 31.8,
+    "JULY": 266.7,
+    "AUGUST": 234.6,
+    "SEPTEMBER": 81.9,
+    "ANNUAL_RAIN": 615
+  },
+  {
+    "YEAR": 1913,
+    "JUNE": 120.2,
+    "JULY": 165.7,
+    "AUGUST": 144.2,
+    "SEPTEMBER": 38.7,
+    "ANNUAL_RAIN": 468.8
+  },
+  {
+    "YEAR": 1914,
+    "JUNE": 75.3,
+    "JULY": 353.5,
+    "AUGUST": 192.2,
+    "SEPTEMBER": 144.7,
+    "ANNUAL_RAIN": 765.6
+  },
+  {
+    "YEAR": 1915,
+    "JUNE": 54.5,
+    "JULY": 147.7,
+    "AUGUST": 226,
+    "SEPTEMBER": 121.7,
+    "ANNUAL_RAIN": 550
+  },
+  {
+    "YEAR": 1916,
+    "JUNE": 132.3,
+    "JULY": 242.2,
+    "AUGUST": 324.9,
+    "SEPTEMBER": 134.8,
+    "ANNUAL_RAIN": 834.2
+  },
+  {
+    "YEAR": 1917,
+    "JUNE": 138,
+    "JULY": 283.3,
+    "AUGUST": 303.1,
+    "SEPTEMBER": 299.6,
+    "ANNUAL_RAIN": 1024
+  },
+  {
+    "YEAR": 1918,
+    "JUNE": 68.8,
+    "JULY": 80.2,
+    "AUGUST": 164.9,
+    "SEPTEMBER": 31.5,
+    "ANNUAL_RAIN": 345.4
+  },
+  {
+    "YEAR": 1919,
+    "JUNE": 42.9,
+    "JULY": 289.3,
+    "AUGUST": 267,
+    "SEPTEMBER": 92,
+    "ANNUAL_RAIN": 691.3
+  },
+  {
+    "YEAR": 1920,
+    "JUNE": 82.6,
+    "JULY": 266.9,
+    "AUGUST": 114.9,
+    "SEPTEMBER": 40.4,
+    "ANNUAL_RAIN": 504.8
+  },
+  {
+    "YEAR": 1921,
+    "JUNE": 76.8,
+    "JULY": 177.1,
+    "AUGUST": 274.2,
+    "SEPTEMBER": 147.8,
+    "ANNUAL_RAIN": 675.8
+  },
+  {
+    "YEAR": 1922,
+    "JUNE": 72.9,
+    "JULY": 270.5,
+    "AUGUST": 238.6,
+    "SEPTEMBER": 188.7,
+    "ANNUAL_RAIN": 770.7
+  },
+  {
+    "YEAR": 1923,
+    "JUNE": 23,
+    "JULY": 229.6,
+    "AUGUST": 289.6,
+    "SEPTEMBER": 98.6,
+    "ANNUAL_RAIN": 640.8
+  },
+  {
+    "YEAR": 1924,
+    "JUNE": 19.6,
+    "JULY": 272.8,
+    "AUGUST": 229.9,
+    "SEPTEMBER": 227.2,
+    "ANNUAL_RAIN": 749.5
+  },
+  {
+    "YEAR": 1925,
+    "JUNE": 142.5,
+    "JULY": 307.8,
+    "AUGUST": 177.2,
+    "SEPTEMBER": 57.2,
+    "ANNUAL_RAIN": 684.6
+  },
+  {
+    "YEAR": 1926,
+    "JUNE": 17.7,
+    "JULY": 254.4,
+    "AUGUST": 306.9,
+    "SEPTEMBER": 154,
+    "ANNUAL_RAIN": 733.1
+  },
+  {
+    "YEAR": 1927,
+    "JUNE": 39,
+    "JULY": 252.8,
+    "AUGUST": 292.3,
+    "SEPTEMBER": 71.8,
+    "ANNUAL_RAIN": 656
+  },
+  {
+    "YEAR": 1928,
+    "JUNE": 48.9,
+    "JULY": 200.9,
+    "AUGUST": 163.3,
+    "SEPTEMBER": 56,
+    "ANNUAL_RAIN": 469.1
+  },
+  {
+    "YEAR": 1929,
+    "JUNE": 69.9,
+    "JULY": 229.1,
+    "AUGUST": 245.9,
+    "SEPTEMBER": 30.5,
+    "ANNUAL_RAIN": 575.4
+  },
+  {
+    "YEAR": 1930,
+    "JUNE": 62.9,
+    "JULY": 312.1,
+    "AUGUST": 157.6,
+    "SEPTEMBER": 79.9,
+    "ANNUAL_RAIN": 612.6
+  },
+  {
+    "YEAR": 1931,
+    "JUNE": 17.9,
+    "JULY": 211.8,
+    "AUGUST": 280.2,
+    "SEPTEMBER": 146.5,
+    "ANNUAL_RAIN": 656.3
+  },
+  {
+    "YEAR": 1932,
+    "JUNE": 38.9,
+    "JULY": 226.9,
+    "AUGUST": 229,
+    "SEPTEMBER": 99.4,
+    "ANNUAL_RAIN": 594.1
+  },
+  {
+    "YEAR": 1933,
+    "JUNE": 134,
+    "JULY": 209.4,
+    "AUGUST": 276.1,
+    "SEPTEMBER": 151.2,
+    "ANNUAL_RAIN": 770.6
+  },
+  {
+    "YEAR": 1934,
+    "JUNE": 101.1,
+    "JULY": 220.9,
+    "AUGUST": 281.6,
+    "SEPTEMBER": 77.2,
+    "ANNUAL_RAIN": 680.8
+  },
+  {
+    "YEAR": 1935,
+    "JUNE": 30,
+    "JULY": 249.6,
+    "AUGUST": 194.8,
+    "SEPTEMBER": 107.2,
+    "ANNUAL_RAIN": 581.6
+  },
+  {
+    "YEAR": 1936,
+    "JUNE": 157.8,
+    "JULY": 269.6,
+    "AUGUST": 213.5,
+    "SEPTEMBER": 134,
+    "ANNUAL_RAIN": 774.9
+  },
+  {
+    "YEAR": 1937,
+    "JUNE": 70.8,
+    "JULY": 246.4,
+    "AUGUST": 167.3,
+    "SEPTEMBER": 101.9,
+    "ANNUAL_RAIN": 586.4
+  },
+  {
+    "YEAR": 1938,
+    "JUNE": 154,
+    "JULY": 232.5,
+    "AUGUST": 180.4,
+    "SEPTEMBER": 46.9,
+    "ANNUAL_RAIN": 613.7
+  },
+  {
+    "YEAR": 1939,
+    "JUNE": 83.3,
+    "JULY": 185.7,
+    "AUGUST": 126.8,
+    "SEPTEMBER": 122.7,
+    "ANNUAL_RAIN": 518.4
+  },
+  {
+    "YEAR": 1940,
+    "JUNE": 66.9,
+    "JULY": 195.4,
+    "AUGUST": 244.4,
+    "SEPTEMBER": 58.1,
+    "ANNUAL_RAIN": 564.9
+  },
+  {
+    "YEAR": 1941,
+    "JUNE": 78.3,
+    "JULY": 126.9,
+    "AUGUST": 205,
+    "SEPTEMBER": 96.3,
+    "ANNUAL_RAIN": 506.6
+  },
+  {
+    "YEAR": 1942,
+    "JUNE": 65.3,
+    "JULY": 299.5,
+    "AUGUST": 311.1,
+    "SEPTEMBER": 150.4,
+    "ANNUAL_RAIN": 826.3
+  },
+  {
+    "YEAR": 1943,
+    "JUNE": 48.5,
+    "JULY": 231.6,
+    "AUGUST": 288.9,
+    "SEPTEMBER": 143.8,
+    "ANNUAL_RAIN": 712.9
+  },
+  {
+    "YEAR": 1944,
+    "JUNE": 62.8,
+    "JULY": 267.3,
+    "AUGUST": 274.3,
+    "SEPTEMBER": 74.1,
+    "ANNUAL_RAIN": 678.5
+  },
+  {
+    "YEAR": 1945,
+    "JUNE": 61.1,
+    "JULY": 238.8,
+    "AUGUST": 192.1,
+    "SEPTEMBER": 198.2,
+    "ANNUAL_RAIN": 690.2
+  },
+  {
+    "YEAR": 1946,
+    "JUNE": 92.1,
+    "JULY": 249.9,
+    "AUGUST": 257.2,
+    "SEPTEMBER": 52.1,
+    "ANNUAL_RAIN": 651.2
+  },
+  {
+    "YEAR": 1947,
+    "JUNE": 37.1,
+    "JULY": 182.8,
+    "AUGUST": 214.3,
+    "SEPTEMBER": 229.4,
+    "ANNUAL_RAIN": 663.6
+  },
+  {
+    "YEAR": 1948,
+    "JUNE": 42.9,
+    "JULY": 279,
+    "AUGUST": 297.7,
+    "SEPTEMBER": 113.3,
+    "ANNUAL_RAIN": 732.8
+  },
+  {
+    "YEAR": 1949,
+    "JUNE": 38.8,
+    "JULY": 262.5,
+    "AUGUST": 172.6,
+    "SEPTEMBER": 119.7,
+    "ANNUAL_RAIN": 593.5
+  },
+  {
+    "YEAR": 1950,
+    "JUNE": 53.5,
+    "JULY": 265,
+    "AUGUST": 256.2,
+    "SEPTEMBER": 210.7,
+    "ANNUAL_RAIN": 785.4
+  },
+  {
+    "YEAR": 1951,
+    "JUNE": 48.8,
+    "JULY": 115.5,
+    "AUGUST": 196.1,
+    "SEPTEMBER": 72.8,
+    "ANNUAL_RAIN": 433.2
+  },
+  {
+    "YEAR": 1952,
+    "JUNE": 117,
+    "JULY": 226.1,
+    "AUGUST": 267.6,
+    "SEPTEMBER": 31.9,
+    "ANNUAL_RAIN": 642.5
+  },
+  {
+    "YEAR": 1953,
+    "JUNE": 92.9,
+    "JULY": 309.5,
+    "AUGUST": 268.7,
+    "SEPTEMBER": 106.6,
+    "ANNUAL_RAIN": 777.8
+  },
+  {
+    "YEAR": 1954,
+    "JUNE": 35,
+    "JULY": 207.7,
+    "AUGUST": 178.2,
+    "SEPTEMBER": 189.9,
+    "ANNUAL_RAIN": 610.9
+  },
+  {
+    "YEAR": 1955,
+    "JUNE": 76.9,
+    "JULY": 198.9,
+    "AUGUST": 294.4,
+    "SEPTEMBER": 166.1,
+    "ANNUAL_RAIN": 736.3
+  },
+  {
+    "YEAR": 1956,
+    "JUNE": 82.8,
+    "JULY": 321.2,
+    "AUGUST": 238.4,
+    "SEPTEMBER": 92.1,
+    "ANNUAL_RAIN": 734.6
+  },
+  {
+    "YEAR": 1957,
+    "JUNE": 57,
+    "JULY": 268.6,
+    "AUGUST": 275.1,
+    "SEPTEMBER": 153.1,
+    "ANNUAL_RAIN": 753.7
+  },
+  {
+    "YEAR": 1958,
+    "JUNE": 35.8,
+    "JULY": 261.1,
+    "AUGUST": 241.8,
+    "SEPTEMBER": 211.2,
+    "ANNUAL_RAIN": 749.9
+  },
+  {
+    "YEAR": 1959,
+    "JUNE": 29.6,
+    "JULY": 252.3,
+    "AUGUST": 223.2,
+    "SEPTEMBER": 148.9,
+    "ANNUAL_RAIN": 653.9
+  },
+  {
+    "YEAR": 1960,
+    "JUNE": 49.1,
+    "JULY": 258.3,
+    "AUGUST": 262.4,
+    "SEPTEMBER": 62.1,
+    "ANNUAL_RAIN": 631.9
+  },
+  {
+    "YEAR": 1961,
+    "JUNE": 84.6,
+    "JULY": 250.9,
+    "AUGUST": 291.9,
+    "SEPTEMBER": 176.8,
+    "ANNUAL_RAIN": 804.2
+  },
+  {
+    "YEAR": 1962,
+    "JUNE": 42.7,
+    "JULY": 208.9,
+    "AUGUST": 205.4,
+    "SEPTEMBER": 193.2,
+    "ANNUAL_RAIN": 650.2
+  },
+  {
+    "YEAR": 1963,
+    "JUNE": 58,
+    "JULY": 179.3,
+    "AUGUST": 264.9,
+    "SEPTEMBER": 122.3,
+    "ANNUAL_RAIN": 624.6
+  },
+  {
+    "YEAR": 1964,
+    "JUNE": 52.2,
+    "JULY": 273.7,
+    "AUGUST": 220.2,
+    "SEPTEMBER": 139.2,
+    "ANNUAL_RAIN": 685.3
+  },
+  {
+    "YEAR": 1965,
+    "JUNE": 22.1,
+    "JULY": 193.4,
+    "AUGUST": 129.5,
+    "SEPTEMBER": 66.5,
+    "ANNUAL_RAIN": 411.5
+  },
+  {
+    "YEAR": 1966,
+    "JUNE": 112.6,
+    "JULY": 157.6,
+    "AUGUST": 223.1,
+    "SEPTEMBER": 93.9,
+    "ANNUAL_RAIN": 587.2
+  },
+  {
+    "YEAR": 1967,
+    "JUNE": 58.4,
+    "JULY": 203.4,
+    "AUGUST": 280.5,
+    "SEPTEMBER": 127.6,
+    "ANNUAL_RAIN": 669.8
+  },
+  {
+    "YEAR": 1968,
+    "JUNE": 50.3,
+    "JULY": 255.1,
+    "AUGUST": 168.4,
+    "SEPTEMBER": 34.5,
+    "ANNUAL_RAIN": 508.3
+  },
+  {
+    "YEAR": 1969,
+    "JUNE": 26.4,
+    "JULY": 200.4,
+    "AUGUST": 211.8,
+    "SEPTEMBER": 116.6,
+    "ANNUAL_RAIN": 555.2
+  },
+  {
+    "YEAR": 1970,
+    "JUNE": 108.9,
+    "JULY": 152.9,
+    "AUGUST": 248.9,
+    "SEPTEMBER": 158.5,
+    "ANNUAL_RAIN": 669.3
+  },
+  {
+    "YEAR": 1971,
+    "JUNE": 161,
+    "JULY": 214.9,
+    "AUGUST": 212.3,
+    "SEPTEMBER": 102.2,
+    "ANNUAL_RAIN": 690.4
+  },
+  {
+    "YEAR": 1972,
+    "JUNE": 42.9,
+    "JULY": 130,
+    "AUGUST": 165.7,
+    "SEPTEMBER": 74.1,
+    "ANNUAL_RAIN": 412.8
+  },
+  {
+    "YEAR": 1973,
+    "JUNE": 78.6,
+    "JULY": 184.2,
+    "AUGUST": 292.3,
+    "SEPTEMBER": 108.5,
+    "ANNUAL_RAIN": 663.7
+  },
+  {
+    "YEAR": 1974,
+    "JUNE": 71.3,
+    "JULY": 229,
+    "AUGUST": 140.1,
+    "SEPTEMBER": 38.6,
+    "ANNUAL_RAIN": 478.9
+  },
+  {
+    "YEAR": 1975,
+    "JUNE": 106.3,
+    "JULY": 309.6,
+    "AUGUST": 274.4,
+    "SEPTEMBER": 165.3,
+    "ANNUAL_RAIN": 855.5
+  },
+  {
+    "YEAR": 1976,
+    "JUNE": 76.6,
+    "JULY": 199.9,
+    "AUGUST": 318.8,
+    "SEPTEMBER": 119.4,
+    "ANNUAL_RAIN": 714.8
+  },
+  {
+    "YEAR": 1977,
+    "JUNE": 88.4,
+    "JULY": 312.4,
+    "AUGUST": 165.6,
+    "SEPTEMBER": 120.3,
+    "ANNUAL_RAIN": 686.7
+  },
+  {
+    "YEAR": 1978,
+    "JUNE": 120.1,
+    "JULY": 282.3,
+    "AUGUST": 239,
+    "SEPTEMBER": 120.7,
+    "ANNUAL_RAIN": 762.1
+  },
+  {
+    "YEAR": 1979,
+    "JUNE": 52.5,
+    "JULY": 170.3,
+    "AUGUST": 99.3,
+    "SEPTEMBER": 34.1,
+    "ANNUAL_RAIN": 356.2
+  },
+  {
+    "YEAR": 1980,
+    "JUNE": 115.4,
+    "JULY": 298.1,
+    "AUGUST": 198.5,
+    "SEPTEMBER": 86.4,
+    "ANNUAL_RAIN": 698.4
+  },
+  {
+    "YEAR": 1981,
+    "JUNE": 77.5,
+    "JULY": 291,
+    "AUGUST": 130.5,
+    "SEPTEMBER": 78,
+    "ANNUAL_RAIN": 577
+  },
+  {
+    "YEAR": 1982,
+    "JUNE": 55.2,
+    "JULY": 150.8,
+    "AUGUST": 227.7,
+    "SEPTEMBER": 67.3,
+    "ANNUAL_RAIN": 500.9
+  },
+  {
+    "YEAR": 1983,
+    "JUNE": 67,
+    "JULY": 222.6,
+    "AUGUST": 235.2,
+    "SEPTEMBER": 164.3,
+    "ANNUAL_RAIN": 689.1
+  },
+  {
+    "YEAR": 1984,
+    "JUNE": 113,
+    "JULY": 194.7,
+    "AUGUST": 174.8,
+    "SEPTEMBER": 127,
+    "ANNUAL_RAIN": 609.5
+  },
+  {
+    "YEAR": 1985,
+    "JUNE": 50.9,
+    "JULY": 253.5,
+    "AUGUST": 201.9,
+    "SEPTEMBER": 112.4,
+    "ANNUAL_RAIN": 618.7
+  },
+  {
+    "YEAR": 1986,
+    "JUNE": 78.1,
+    "JULY": 228.3,
+    "AUGUST": 184.4,
+    "SEPTEMBER": 53.4,
+    "ANNUAL_RAIN": 544.2
+  },
+  {
+    "YEAR": 1987,
+    "JUNE": 56,
+    "JULY": 97,
+    "AUGUST": 146.3,
+    "SEPTEMBER": 72.2,
+    "ANNUAL_RAIN": 371.4
+  },
+  {
+    "YEAR": 1988,
+    "JUNE": 75.9,
+    "JULY": 320.5,
+    "AUGUST": 239.4,
+    "SEPTEMBER": 172.4,
+    "ANNUAL_RAIN": 808.1
+  },
+  {
+    "YEAR": 1989,
+    "JUNE": 72.3,
+    "JULY": 235.2,
+    "AUGUST": 200,
+    "SEPTEMBER": 85.1,
+    "ANNUAL_RAIN": 592.6
+  },
+  {
+    "YEAR": 1990,
+    "JUNE": 64.3,
+    "JULY": 247.5,
+    "AUGUST": 219,
+    "SEPTEMBER": 153.5,
+    "ANNUAL_RAIN": 684.3
+  },
+  {
+    "YEAR": 1991,
+    "JUNE": 54.5,
+    "JULY": 122.2,
+    "AUGUST": 201.6,
+    "SEPTEMBER": 72,
+    "ANNUAL_RAIN": 450.4
+  },
+  {
+    "YEAR": 1992,
+    "JUNE": 35.3,
+    "JULY": 169.8,
+    "AUGUST": 246.5,
+    "SEPTEMBER": 172.3,
+    "ANNUAL_RAIN": 623.8
+  },
+  {
+    "YEAR": 1993,
+    "JUNE": 100.9,
+    "JULY": 197.7,
+    "AUGUST": 87.1,
+    "SEPTEMBER": 173.6,
+    "ANNUAL_RAIN": 559.3
+  },
+  {
+    "YEAR": 1994,
+    "JUNE": 83.4,
+    "JULY": 305.2,
+    "AUGUST": 251,
+    "SEPTEMBER": 90.3,
+    "ANNUAL_RAIN": 729.9
+  },
+  {
+    "YEAR": 1995,
+    "JUNE": 54.8,
+    "JULY": 255.3,
+    "AUGUST": 267.4,
+    "SEPTEMBER": 118.8,
+    "ANNUAL_RAIN": 696.4
+  },
+  {
+    "YEAR": 1996,
+    "JUNE": 149.4,
+    "JULY": 175.8,
+    "AUGUST": 324.3,
+    "SEPTEMBER": 99.6,
+    "ANNUAL_RAIN": 749.1
+  },
+  {
+    "YEAR": 1997,
+    "JUNE": 87.1,
+    "JULY": 204.7,
+    "AUGUST": 267.7,
+    "SEPTEMBER": 100.5,
+    "ANNUAL_RAIN": 660
+  },
+  {
+    "YEAR": 1998,
+    "JUNE": 75.8,
+    "JULY": 228.6,
+    "AUGUST": 218.4,
+    "SEPTEMBER": 120.4,
+    "ANNUAL_RAIN": 643.1
+  },
+  {
+    "YEAR": 1999,
+    "JUNE": 75.1,
+    "JULY": 196.4,
+    "AUGUST": 168.2,
+    "SEPTEMBER": 120.1,
+    "ANNUAL_RAIN": 559.8
+  },
+  {
+    "YEAR": 2000,
+    "JUNE": 110.7,
+    "JULY": 236.6,
+    "AUGUST": 148.3,
+    "SEPTEMBER": 84.7,
+    "ANNUAL_RAIN": 580.3
+  },
+  {
+    "YEAR": 2001,
+    "JUNE": 140.8,
+    "JULY": 234.8,
+    "AUGUST": 142.4,
+    "SEPTEMBER": 43.5,
+    "ANNUAL_RAIN": 561.6
+  },
+  {
+    "YEAR": 2002,
+    "JUNE": 63.7,
+    "JULY": 65.7,
+    "AUGUST": 174.6,
+    "SEPTEMBER": 130.7,
+    "ANNUAL_RAIN": 434.7
+  },
+  {
+    "YEAR": 2003,
+    "JUNE": 72,
+    "JULY": 237.6,
+    "AUGUST": 195.8,
+    "SEPTEMBER": 158.3,
+    "ANNUAL_RAIN": 663.7
+  },
+  {
+    "YEAR": 2004,
+    "JUNE": 79.7,
+    "JULY": 145.3,
+    "AUGUST": 203,
+    "SEPTEMBER": 53.4,
+    "ANNUAL_RAIN": 481.4
+  },
+  {
+    "YEAR": 2005,
+    "JUNE": 51.8,
+    "JULY": 253,
+    "AUGUST": 109,
+    "SEPTEMBER": 135.5,
+    "ANNUAL_RAIN": 549.3
+  },
+  {
+    "YEAR": 2006,
+    "JUNE": 76.4,
+    "JULY": 203.6,
+    "AUGUST": 197.9,
+    "SEPTEMBER": 97.1,
+    "ANNUAL_RAIN": 574.9
+  },
+  {
+    "YEAR": 2007,
+    "JUNE": 88.1,
+    "JULY": 179,
+    "AUGUST": 178.5,
+    "SEPTEMBER": 76.4,
+    "ANNUAL_RAIN": 521.9
+  },
+  {
+    "YEAR": 2008,
+    "JUNE": 157.6,
+    "JULY": 198.8,
+    "AUGUST": 202.3,
+    "SEPTEMBER": 82.6,
+    "ANNUAL_RAIN": 641.2
+  },
+  {
+    "YEAR": 2009,
+    "JUNE": 35.8,
+    "JULY": 151.2,
+    "AUGUST": 124,
+    "SEPTEMBER": 83.6,
+    "ANNUAL_RAIN": 394.6
+  },
+  {
+    "YEAR": 2010,
+    "JUNE": 54.2,
+    "JULY": 225.9,
+    "AUGUST": 242.8,
+    "SEPTEMBER": 163.9,
+    "ANNUAL_RAIN": 686.7
+  },
+  {
+    "YEAR": 2011,
+    "JUNE": 119.5,
+    "JULY": 166.9,
+    "AUGUST": 237.3,
+    "SEPTEMBER": 131.2,
+    "ANNUAL_RAIN": 655
+  },
+  {
+    "YEAR": 2012,
+    "JUNE": 21.7,
+    "JULY": 161.1,
+    "AUGUST": 249.6,
+    "SEPTEMBER": 135.3,
+    "ANNUAL_RAIN": 567.7
+  },
+  {
+    "YEAR": 2013,
+    "JUNE": 155,
+    "JULY": 204.3,
+    "AUGUST": 247.2,
+    "SEPTEMBER": 65.6,
+    "ANNUAL_RAIN": 672
+  },
+  {
+    "YEAR": 2014,
+    "JUNE": 31.3,
+    "JULY": 158.5,
+    "AUGUST": 135,
+    "SEPTEMBER": 158.1,
+    "ANNUAL_RAIN": 482.9
+  },
+  {
+    "YEAR": 2015,
+    "JUNE": 90.6,
+    "JULY": 228.3,
+    "AUGUST": 136,
+    "SEPTEMBER": 55.8,
+    "ANNUAL_RAIN": 510.8
+  }
+]
+}

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>rainfall report</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/dc.css">
+    <link rel="stylesheet" type="text/css" href="css/leaflet.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-xs-12 dc-data-count dc-chart" id="data-count">
+      <h2>RAINFALL ANALYSIS NORTH-WEST REGION OF INDIA 
+        <small>
+           <a id="all" href="#">Reset All</a>
+          </span>
+        </small>
+      </h2>
+    </div>
+  </div>
+  <div class="row" id="control-row">
+    <div class="col-xs-2 pie-chart">
+      <h4>Year <small></small></h4>
+      <div class="dc-chart" id="chart-ring-year"></div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+      <h4>Annual Rainfall <small></small></h4>
+      <div class="dc-chart" id="chart-annual-count"></div>
+    </div>
+   </div>
+  <div class="row">
+    <div class="col-xs-6 col-md-3">
+      <div class="dc-chart" id="chart-june-count"></div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+      <div class="dc-chart" id="chart-july-count"></div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+      <div class="dc-chart" id="chart-august-count"></div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+      <div class="dc-chart" id="chart-september-count"></div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12">
+      <table class="table table-bordered table-striped" id="data-table">
+        <thead>
+          <tr class="header">
+            <th>YEAR</th>
+            <th>JUNE(cm)</th>
+            <th>JULY(cm)</th>
+            <th>AUGUST(cm)</th>
+            <th>SEPTEMBER(cm)</th>
+            <th>ANNUAL(cm)</th>
+          </tr>
+        </thead>
+      </table>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="js/d3.js"></script>
+<script type="text/javascript" src="js/crossfilter.js"></script>
+<script type="text/javascript" src="js/dc.js"></script>
+<script type="text/javascript" src="js/leaflet.js"></script>
+<script type="text/javascript" src="js/underscore-min.js"></script>
+<script type="text/javascript">
+
+d3.json('rainfall.json', function (error, data) {
+  var rainData = data.items;
+  
+  _.each(rainData, function(d) {
+    d.year = +d.YEAR;
+    d.june= Math.round(+d.JUNE/10);
+    d.july= Math.round(+d.JULY/10);
+    d.august= Math.round(+d.AUGUST/10);
+    d.september= Math.round(+d.SEPTEMBER/10);
+    d.annual= Math.round(+d.ANNUAL_RAIN/10);
+  });
+
+   var ndx = crossfilter(rainData);
+
+
+  var yearDim  = ndx.dimension(function(d) {return d.year;});
+  var  juneDim = ndx.dimension(dc.pluck('june'));
+  var  julyDim = ndx.dimension(dc.pluck('july'));
+  var  augustDim = ndx.dimension(dc.pluck('august'));
+  var  septemberDim = ndx.dimension(dc.pluck('september'));
+  var  annualDim = ndx.dimension(dc.pluck('annual'));
+  var  allDim = ndx.dimension(function(d) {return d;});
+
+  var all = ndx.groupAll();
+
+  var countPerYear = yearDim.group().reduceCount();
+  var  countPerjune = juneDim.group().reduceCount();
+  var  countPerjuly = julyDim.group().reduceCount();
+  var  countPeraugust = augustDim.group().reduceCount();
+  var  countPerseptember = septemberDim.group().reduceCount();
+  var  countPerannual = annualDim.group().reduceCount();
+       
+  var yearChart   = dc.pieChart('#chart-ring-year');
+  var  juneCountChart  = dc.barChart('#chart-june-count');
+  var  julyCountChart  = dc.barChart('#chart-july-count');
+  var  augustCountChart  = dc.barChart('#chart-august-count');
+  var  septemberCountChart  = dc.barChart('#chart-september-count');
+  var  annualCountChart  = dc.barChart('#chart-annual-count');
+  var  dataTable = dc.dataTable('#data-table');
+  
+  yearChart
+      .width(150)
+      .height(150)
+      .dimension(yearDim)
+      .group(countPerYear)
+      .innerRadius(20);   
+
+
+
+  juneCountChart
+      .width(300)
+      .height(180)
+      .dimension(juneDim)
+      .group(countPerjune)
+      .x(d3.scale.linear().domain([0, d3.max(rainData, function (d) { return d.june; }) + 0.2]))
+      .elasticY(true)
+      .centerBar(true)
+      .barPadding(3)
+      .xAxisLabel('JUNE')
+      .yAxisLabel('Rainfall (cm)')
+      .margins({top: 10, right: 20, bottom: 50, left: 50});
+      //juneCountChart.xAxis().tickValues([0, 1, 2, 3, 4, 5]);
+
+ julyCountChart
+      .width(300)
+      .height(180)
+      .dimension(julyDim)
+      .group(countPerjuly)
+      .x(d3.scale.linear().domain([0,d3.max(rainData, function (d) { return d.july; }) + 0.2]))
+      .elasticY(true)
+      .centerBar(true)
+      .barPadding(1)
+      .xAxisLabel('JULY')
+      .yAxisLabel('Rainfall (cm)')
+      .margins({top: 10, right: 20, bottom: 50, left: 50});
+
+augustCountChart
+      .width(300)
+      .height(180)
+      .dimension(augustDim)
+      .group(countPeraugust)
+      .x(d3.scale.linear().domain([0,d3.max(rainData, function (d) { return d.august; }) + 0.2]))
+      .elasticY(true)
+      .centerBar(true)
+      .barPadding(1)
+      .xAxisLabel('AUGUST')
+      .yAxisLabel('Rainfall (cm)')
+      .margins({top: 10, right: 20, bottom: 50, left: 50});
+
+septemberCountChart
+      .width(300)
+      .height(180)
+      .dimension(septemberDim)
+      .group(countPerseptember)
+      .x(d3.scale.linear().domain([0,d3.max(rainData, function (d) { return d.september; }) + 0.2]))
+      .elasticY(true)
+      .centerBar(true)
+      .barPadding(1)
+      .xAxisLabel('SEPTEMBER')
+      .yAxisLabel('Rainfall (cm)')
+      .margins({top: 10, right: 20, bottom: 50, left: 50});
+
+annualCountChart
+      .width(800)
+      .height(180)
+      .dimension(annualDim)
+      .group(countPerannual)
+      .x(d3.scale.linear().domain([30,d3.max(rainData, function (d) { return d.annual; }) + 0.2]))
+      .elasticY(true)
+      .centerBar(true)
+      .barPadding(1)
+      .xAxisLabel('ANNUAL_RAIN')
+      .yAxisLabel('Rainfall (cm)')
+      .margins({top: 10, right: 20, bottom: 50, left: 50});
+
+ 
+ dataTable
+    .dimension(allDim)
+    .group(function (d) { return 'dc.js insists on putting a row here so I remove it using JS'; })
+    .size(100)
+    .columns([
+      function (d) { return d.year; },
+      function (d) { return d.june; },
+      function (d) { return d.july; },
+      function (d) { return d.august; },
+      function (d) { return d.september; },
+      function (d) { return d.annual; }
+      //function (d) { return d.beer.beer_ibu; }
+    ])
+    .sortBy(dc.pluck('year'))
+    .order(d3.descending);
+
+    
+
+  d3.selectAll('a#all').on('click', function () {
+    dc.filterAll();
+    dc.renderAll();
+  });
+
+  
+        dc.renderAll();
+
+});
+
+</script>
+</body></html>
